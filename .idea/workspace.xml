@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3829e1f1-c596-46d4-b857-6798faa08c2a" name="Default Changelist" comment="完成了基本要实现的业务，用户模块，朋友圈模块，socket服务器模块，后面将继续调试，查找解决未发现的bug，并对项目结构进行优化">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_tobato_fastdfs_client_1_26_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_javase_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_25_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_1_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_1_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/mgchat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v1/ChatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/BgmControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/ChatControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/UserControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/VideoControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/core/GlobalExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/core/UnifyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/core/configuration/AutoPrefixConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/core/configuration/ExceptionCodeConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/core/configuration/TomcatConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/core/hack/AutoPrefixUrlMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/exception/http/CommonException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/exception/http/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/exception/http/HttpException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/exception/http/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/mapper/ChatMsgMapperCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/entity/UserChannelRel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/CommentAddDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/FriendRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/FriendRequestOperDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/SchoolDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/UserFaceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/UserLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/UserNicknameDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/VideoUploadDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/vo/OkVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/ChatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/impl/ChatServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/BgmServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/ChatServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/UserServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/VideoServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/BgmServiceImplV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/ChatServiceImplV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/UserServiceImplV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/VideoServiceImplV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/utils/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/validators/PasswordEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/validators/PasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/resources/config/exception-code.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/src/main/resources/mapper/ChatMsgMapperCustom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/META-INF/mgchat.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/FastdfsImporter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/NettyBooter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/api/v1/BgmController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/api/v1/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/api/v1/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/api/v1/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/api/v1/VideoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/api/v2/BgmControllerV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/api/v2/ChatControllerV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/api/v2/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/api/v2/UserControllerV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/api/v2/VideoControllerV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/config/ResourceConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/constant/CommonConst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/core/GlobalExceptionAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/core/UnifyResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/core/configuration/AutoPrefixConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/core/configuration/ExceptionCodeConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/core/configuration/MgChatCongfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/core/configuration/TomcatConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/core/hack/AutoPrefixUrlMapping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/enums/BGMOperatorTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/enums/MsgActionEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/enums/MsgSignFlagEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/enums/OperatorFriendRequestTypeEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/enums/SearchFriendsStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/enums/VideoStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/exception/http/CommonException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/exception/http/ForbiddenException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/exception/http/HttpException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/exception/http/NotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/interceptor/MiniInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/BgmMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/ChatMsgMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/ChatMsgMapperCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/CommentsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/CommentsMapperCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/FriendsRequestMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/MyFriendsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/SearchRecordsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/UsersLikeVideosMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/UsersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/UsersMapperCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/VideosMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/mapper/VideosMapperCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/netty/entity/ChatMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/netty/entity/DataContent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/netty/entity/UserChannelRel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/netty/websocket/ChatHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/netty/websocket/HeartBeatHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/netty/websocket/WSServer$SingletionWSServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/netty/websocket/WSServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/netty/websocket/WSServerInitialzer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/Bgm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/ChatMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/Comments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/FriendsRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/MyFriends.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/SearchRecords.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/UsersLikeVideos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/Videos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/bo/UsersBO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/dto/CommentAddDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/dto/FriendRequestDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/dto/FriendRequestOperDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/dto/PersonDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/dto/SchoolDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/dto/UserFaceDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/dto/UserLoginDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/dto/UserNicknameDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/dto/VideoUploadDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/vo/CommentsVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/vo/FriendRequestVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/vo/MyFriendsVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/vo/OkVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/vo/PublisherVideoVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/vo/UsersVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/pojo/vo/VideosVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v1/BgmService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v1/ChatService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v1/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v1/VideoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v1/impl/BgmServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v1/impl/ChatServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v1/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v1/impl/VideoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v2/BgmServiceV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v2/ChatServiceV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v2/UserServiceV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v2/VideoServiceV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v2/impl/BgmServiceImplV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v2/impl/ChatServiceImplV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v2/impl/UserServiceImplV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/service/v2/impl/VideoServiceImplV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/CommonUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/FastDFSClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/FetchVideoCover.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/FileUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/JSONResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/MergeVideoMp3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/MyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/PagedResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/QRCodeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/RedisOperator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/SpringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/utils/TimeAgoUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/validators/PasswordEqual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/com/megetood/validators/PasswordValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/config/exception-code.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/BgmMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/ChatMsgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/ChatMsgMapperCustom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/CommentsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/CommentsMapperCustom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/FriendsRequestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/MyFriendsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/SearchRecordsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/UsersLikeVideosMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/UsersMapperCustom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/VideosMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/mapper/VideosMapperCustom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/DayCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/Id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/InvalidSystemClock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/RandomCodeStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/Sid$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/Sid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/WorkerIdStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/strategy/FileLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/utils/HttpReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/utils/IPv4Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/utils/Ip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/utils/Props$Silent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/utils/Props.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/utils/Serializes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/org/n3r/idworker/utils/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mgchat/target/classes/resource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/MgChatCongfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/core/configuration/MgChatCongfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/utils/SpringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/config/ResourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/config/ResourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/constant/CommonConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/constant/CommonConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/controller/BgmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v1/BgmController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v1/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/controller/LoginRegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v1/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v1/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/enums/SearchFriendsStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/enums/SearchFriendsStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/mapper/VideosMapperCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/mapper/VideosMapperCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/ChatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/ChatMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/entity/ChatMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/DataContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/entity/DataContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/HeartBeatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/HeartBeatHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/UserChannelRel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/WSServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/WSServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/WSServerInitialzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/WSServerInitialzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/Comments.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/Comments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/bo/UsersBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/bo/UsersBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/vo/VideosVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/vo/VideosVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/BgmService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/BgmService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/VideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/impl/BgmServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/impl/BgmServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/impl/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mgchat/src/main/resources/mapper/VideosMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mgchat/src/main/resources/mapper/VideosMapperCustom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/mgchat/target/" />
+    <ignored path="$PROJECT_DIR$/nettystudy/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/megetood_mgchat$Application.ic" NAME="Application Coverage Results" MODIFIED="1584591188319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.megetood.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/core/hack/AutoPrefixUrlMapping.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Comment</find>
+      <find>CommentsVO</find>
+      <find>list</find>
+      <find>comment</find>
+      <find>timeAgo</find>
+      <find>IMoocJSONResult</find>
+      <find>commet</find>
+      <find>127.0.0.1</find>
+      <find>172.20.10.9</find>
+      <find>BeanUtils</find>
+      <find>queryVideoList</find>
+      <find>lin</find>
+      <find>register</find>
+      <find>clients</find>
+      <find>client-msg</find>
+      <find>apiPackagePath</find>
+      <find>videoService</find>
+      <find>mRequest</find>
+      <find>getAllComments_f</find>
+      <find>setcomment</find>
+      <find>setCommentsVOList</find>
+      <find>usersMapper</find>
+      <find>ffmpegEXE</find>
+      <find>chatMsgMapper</find>
+      <find>save</find>
+      <find>userService</find>
+      <find>login</find>
+      <find>makeuse</find>
+      <find>updateUserInfo</find>
+      <find>public STring</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>finalVideoPath</replace>
+      <replace>JSONResult</replace>
+      <replace>comment</replace>
+      <replace>172.20.10.9</replace>
+      <replace>127.0.0.1</replace>
+      <replace>megetood</replace>
+      <replace>videoService2</replace>
+      <replace>setComments</replace>
+      <replace>userService</replace>
+      <replace>userServiceV2</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/WSServerInitialzer.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/NettyBooter.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/constant/CommonConst.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v1/VideoController.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v1/VideoController2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/LikeController.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/vo/VideosVO.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/impl/VideoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/resources/mapper/VideosMapperCustom.xml" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/mapper/VideosMapperCustom.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/core/GlobalExceptionAdvice.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/VideoService2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/VideoServiceImpl2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/VideoController2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/ChatController.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/BgmController.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/UserController.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/impl/aa.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/impl/BgmServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/VideoServiceImplV2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/ChatControllerV2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/UserService.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/ChatService.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/ChatServiceV2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/BgmServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/BgmServiceImplV2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/ChatServiceImplV2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/VideoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/Comments.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/CommentAddDTO.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/UserLoginDTO.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/bo/UserFaceDTO.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/bo/UsersBO.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/UsersBO.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/UserFaceDTO.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/UserNicknameDTO.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/exception/http/CommonException.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/resources/config/exception-code.properties" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/enums/SearchFriendsStatusEnum.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/FriendRequestOperDTO.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/UserServiceV2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/UserServiceImplV2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/BgmControllerV2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/vo/OkVO.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/UserControllerV2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/VideoUploadDTO.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/VideoServiceV2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/VideoServiceImplV2.java" />
+        <option value="$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/VideoControllerV2.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/resource/apache/maven3.6.1" />
+        <option name="userSettingsFile" value="D:\resource\apache\maven3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mgchat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mgchat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mgchat" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="599" />
+    <option name="y" value="66" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="megetood-mgchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgchat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="megetood-mgchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="megetood-mgchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="megetood-mgchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="megetood-mgchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="megetood" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="megetood-mgchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="megetood" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="megetood-mgchat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mgchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="megetood" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="hack" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585800615712" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.14095238" />
+    <property name="project.structure.side.proportion" value="0.33259425" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.megetood.pojo.dto" />
+      <recent name="com.megetood.api.v2" />
+      <recent name="com.megetood.service" />
+      <recent name="com.megetood.api.v1" />
+      <recent name="com.megetood.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\megetood-mgchat\mgchat\src\main\java\com\megetood\service\v2\impl" />
+      <recent name="D:\IdeaProjects\megetood-mgchat\mgchat\src\main\java\com\megetood\service\v2" />
+      <recent name="D:\IdeaProjects\megetood-mgchat\mgchat\src\main\java\com\megetood\netty\websocket" />
+      <recent name="D:\IdeaProjects\megetood-mgchat\mgchat\src\main\resources\mapper" />
+      <recent name="D:\IdeaProjects\megetood-mgchat\mgchat\src\main\java\com\megetood\api\v2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.megetood.Application" />
+      <module name="mgchat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.megetood.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloNetty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.megetood.netty.HelloNetty" />
+      <module name="nettystudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.megetood.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WSServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.megetood.netty.websocket.WSServer" />
+      <module name="nettystudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.megetood.netty.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mgchat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.megetood.core.configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.megetood.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.WSServer" />
+        <item itemvalue="Application.HelloNetty" />
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3829e1f1-c596-46d4-b857-6798faa08c2a" name="Default Changelist" comment="" />
+      <created>1574262419827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574262419827</updated>
+      <workItem from="1574262421223" duration="17696000" />
+      <workItem from="1574581883678" duration="9063000" />
+      <workItem from="1574603594829" duration="157000" />
+      <workItem from="1574651886315" duration="1578000" />
+      <workItem from="1574682358500" duration="9697000" />
+      <workItem from="1574822994370" duration="21085000" />
+      <workItem from="1574901307562" duration="7893000" />
+      <workItem from="1574943428507" duration="2518000" />
+      <workItem from="1575010697465" duration="3752000" />
+      <workItem from="1575081104276" duration="19000" />
+      <workItem from="1575098474809" duration="1923000" />
+      <workItem from="1575162836955" duration="3310000" />
+      <workItem from="1575181430505" duration="7232000" />
+      <workItem from="1575245694771" duration="347000" />
+      <workItem from="1575248801317" duration="888000" />
+      <workItem from="1575540481204" duration="6284000" />
+      <workItem from="1575850981311" duration="19000" />
+      <workItem from="1575855378960" duration="8897000" />
+      <workItem from="1575901214855" duration="22000" />
+      <workItem from="1576035140629" duration="1929000" />
+      <workItem from="1576039908535" duration="2549000" />
+      <workItem from="1576044086266" duration="11397000" />
+      <workItem from="1576117969912" duration="5664000" />
+      <workItem from="1576139386766" duration="730000" />
+      <workItem from="1576140588191" duration="3821000" />
+      <workItem from="1576149815527" duration="1484000" />
+      <workItem from="1576388112346" duration="4659000" />
+      <workItem from="1576408370592" duration="3605000" />
+      <workItem from="1576458405283" duration="11536000" />
+      <workItem from="1576505006192" duration="3253000" />
+      <workItem from="1576562606143" duration="49000" />
+      <workItem from="1576911148435" duration="30000" />
+      <workItem from="1577263174981" duration="1504000" />
+      <workItem from="1578019775995" duration="36000" />
+      <workItem from="1579073746405" duration="3676000" />
+      <workItem from="1580212105897" duration="596000" />
+      <workItem from="1580821512133" duration="41000" />
+      <workItem from="1580821898909" duration="1299000" />
+      <workItem from="1580907620872" duration="3132000" />
+      <workItem from="1580987465212" duration="4036000" />
+      <workItem from="1581144292216" duration="6858000" />
+      <workItem from="1581170011688" duration="14000" />
+      <workItem from="1581237357993" duration="3758000" />
+      <workItem from="1581321212060" duration="17213000" />
+      <workItem from="1581388504418" duration="12955000" />
+      <workItem from="1581418189023" duration="13976000" />
+      <workItem from="1581507781895" duration="5587000" />
+      <workItem from="1581561558111" duration="2451000" />
+      <workItem from="1581589049884" duration="7385000" />
+      <workItem from="1581678659547" duration="8998000" />
+      <workItem from="1581726273734" duration="14000" />
+      <workItem from="1581765273502" duration="7582000" />
+      <workItem from="1582164249442" duration="4053000" />
+      <workItem from="1582359524065" duration="14000" />
+      <workItem from="1582359943726" duration="1067000" />
+      <workItem from="1582544992132" duration="1417000" />
+      <workItem from="1582856731568" duration="20624000" />
+      <workItem from="1582941079715" duration="10454000" />
+      <workItem from="1582962167612" duration="669000" />
+      <workItem from="1582962928971" duration="4149000" />
+      <workItem from="1582985694714" duration="430000" />
+      <workItem from="1583033581343" duration="6324000" />
+      <workItem from="1583113102140" duration="20547000" />
+      <workItem from="1583203791328" duration="3220000" />
+      <workItem from="1583237862670" duration="1580000" />
+      <workItem from="1583241802753" duration="205000" />
+      <workItem from="1583308971875" duration="1254000" />
+      <workItem from="1583313419297" duration="1238000" />
+      <workItem from="1583320149016" duration="9037000" />
+      <workItem from="1584456441772" duration="358000" />
+      <workItem from="1584532270893" duration="1548000" />
+      <workItem from="1584583569293" duration="27000" />
+      <workItem from="1584588188099" duration="235000" />
+      <workItem from="1584588658192" duration="4277000" />
+      <workItem from="1584689003287" duration="22000" />
+      <workItem from="1584694495711" duration="13580000" />
+      <workItem from="1584755161047" duration="24783000" />
+      <workItem from="1584843577505" duration="5409000" />
+      <workItem from="1584875881760" duration="9266000" />
+      <workItem from="1584925392627" duration="10262000" />
+      <workItem from="1585016048603" duration="21758000" />
+      <workItem from="1585099528872" duration="16542000" />
+      <workItem from="1585195104965" duration="25579000" />
+      <workItem from="1585283837296" duration="6985000" />
+      <workItem from="1585379358052" duration="11424000" />
+      <workItem from="1585453159635" duration="19386000" />
+      <workItem from="1585537696792" duration="20030000" />
+      <workItem from="1585628800333" duration="23202000" />
+      <workItem from="1585753693264" duration="98000" />
+      <workItem from="1585799039071" duration="1802000" />
+    </task>
+    <task id="LOCAL-00001" summary="完成了基本要实现的业务，用户模块，朋友圈模块，socket服务器模块，后面将继续调试，查找解决未发现的bug，并对项目结构进行优化">
+      <created>1582963703809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582963703809</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成了基本要实现的业务，用户模块，朋友圈模块，socket服务器模块，后面将继续调试，查找解决未发现的bug，并对项目结构进行优化">
+      <created>1582966431794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582966431796</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="557053000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.1762481" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5955631" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37542662" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.41979522" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.4317406" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2576792" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32935154" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32935154" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.17019667" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.22844176" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.56143343" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37542662" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.41979522" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.4317406" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2576792" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32935154" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32935154" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.17019667" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成了基本要实现的业务，用户模块，朋友圈模块，socket服务器模块，后面将继续调试，查找解决未发现的bug，并对项目结构进行优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了基本要实现的业务，用户模块，朋友圈模块，socket服务器模块，后面将继续调试，查找解决未发现的bug，并对项目结构进行优化" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/ChatHandler.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/ChatHandler.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/nettystudy/src/main/java/com/megetood/netty/websocket/ChatHandler.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/mapper/VideosMapperCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/resources/resource.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/constant/CommonConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/vo/VideosVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/resources/mapper/VideosMapperCustom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.31/tomcat-embed-core-8.5.31-sources.jar!/org/apache/coyote/http11/Http11InputBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8740">
+          <caret line="494" column="13" selection-start-line="494" selection-start-column="13" selection-end-line="494" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v1/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/impl/aa.java" />
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/BgmService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/ChatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v1/BgmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/VideoServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/CommentAddDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/Comments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/UserLoginDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/bo/UsersBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v1/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="86" selection-start-line="84" selection-end-line="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/vo/CommentsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/core/GlobalExceptionAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/exception/http/CommonException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/UserFaceDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/UserNicknameDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/enums/SearchFriendsStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/FriendRequestDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/FriendRequestOperDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/ChatControllerV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/BgmServiceV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/BgmServiceImplV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/ChatServiceImplV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/impl/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="135" column="24" selection-start-line="135" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/impl/BgmServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v1/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="111" column="12" lean-forward="true" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+          <folding>
+            <element signature="method#queryUsernameIsExist#0;class#UserServiceImpl#0" />
+            <element signature="method#login#0;class#UserServiceImpl#0" />
+            <element signature="method#register#0;class#UserServiceImpl#0" />
+            <element signature="method#preconditionSearchFriends#0;class#UserServiceImpl#0" />
+            <element signature="method#queryUserByUsername#0;class#UserServiceImpl#0" />
+            <element signature="method#sendFriendRequest#0;class#UserServiceImpl#0" />
+            <element signature="method#queryFriendRequestList#0;class#UserServiceImpl#0" />
+            <element signature="method#deleteFriendRequest#0;class#UserServiceImpl#0" />
+            <element signature="method#passFriendRequest#0;class#UserServiceImpl#0" />
+            <element signature="e#12027#12028#0" expanded="true" />
+            <element signature="e#12092#12093#0" expanded="true" />
+            <element signature="method#getUnReadMsgList#0;class#UserServiceImpl#0" />
+            <element signature="method#saveMyFriends#0;class#UserServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/BgmControllerV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/ChatServiceV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/resources/config/exception-code.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/vo/OkVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/UserServiceV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/pojo/dto/VideoUploadDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/UserServiceImplV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="203" column="18" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#loginOrRegister#0;class#UserServiceImplV2#0" />
+            <element signature="method#updateUserFace#0;class#UserServiceImplV2#0" />
+            <element signature="method#updateUserNickname#0;class#UserServiceImplV2#0" />
+            <element signature="method#searchFriendByUsername#0;class#UserServiceImplV2#0" />
+            <element signature="method#operFriendRequest#0;class#UserServiceImplV2#0" />
+            <element signature="method#queryFriendRequestList#0;class#UserServiceImplV2#0" />
+            <element signature="method#queryUsernameIsExist#0;class#UserServiceImplV2#0" />
+            <element signature="method#setUserRedisSessionToken#0;class#UserServiceImplV2#0" />
+            <element signature="method#login#0;class#UserServiceImplV2#0" />
+            <element signature="method#register#0;class#UserServiceImplV2#0" />
+            <element signature="method#queryUserByUsername#0;class#UserServiceImplV2#0" />
+            <element signature="method#deleteFriendRequest#0;class#UserServiceImplV2#0" />
+            <element signature="method#passFriendRequest#0;class#UserServiceImplV2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/VideoServiceV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/UserControllerV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1413">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/api/v2/VideoControllerV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-455">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/service/v2/impl/VideoServiceImplV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1599">
+          <caret line="235" column="39" lean-forward="true" selection-start-line="235" selection-start-column="39" selection-end-line="235" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/HeartBeatHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/netty/websocket/WSServerInitialzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgchat/src/main/java/com/megetood/core/hack/AutoPrefixUrlMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33259425" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33259425" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33259425" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33259425" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mgchat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33259425" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33259425" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
